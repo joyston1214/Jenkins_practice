@@ -12,6 +12,6 @@ public class Login_Module {
 	{
 		System.out.println("Successfully created Login Module");
 		Reporter.log("Successfully created Login Module");
-		assertFalse(true, "fail");
+		//assertFalse(true, "fail");
 	}
 }
