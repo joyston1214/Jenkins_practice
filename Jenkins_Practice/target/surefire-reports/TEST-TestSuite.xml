@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.504" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.444" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:9090/job/jankins_practice/1/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:9090/job/jankins_practice/4/display/redirect"/>
     <property name="HUDSON_HOME" value="C:\ProgramData\Jenkins\.jenkins"/>
     <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:9090/job/jankins_practice/1/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:9090/job/jankins_practice/4/display/redirect?page=changes"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="WINSW_SERVICE_ID" value="jenkins"/>
     <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
@@ -21,11 +21,12 @@
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="JENKINS_URL" value="http://localhost:9090/"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.7\bin"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\fjoys\eclipse\apache-maven-3.9.2 C:\ProgramData\Jenkins\war\WEB-INF\lib\remoting-3107.v665000b_51092.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar 51039"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\fjoys\eclipse\apache-maven-3.9.2 C:\ProgramData\Jenkins\war\WEB-INF\lib\remoting-3107.v665000b_51092.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar 51487"/>
     <property name="maven.home" value="C:\Users\fjoys\eclipse\apache-maven-3.9.2"/>
     <property name="jdk.debug" value="release"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="POM_GROUPID" value="Jenkins_Practice"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="jansi.mode" value="strip"/>
     <property name="java.version.date" value="2023-04-18"/>
@@ -37,7 +38,7 @@
     <property name="NODE_NAME" value="built-in"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="BUILD_DISPLAY_NAME" value="#4"/>
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 165 Stepping 2, GenuineIntel"/>
     <property name="maven3.interceptor" value="C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar"/>
     <property name="PATH+MAVEN" value="C:\Users\fjoys\eclipse\apache-maven-3.9.2/bin"/>
@@ -51,6 +52,7 @@
     <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-17.0.7"/>
     <property name="user.name" value="JOYSTON$"/>
+    <property name="POM_ARTIFACTID" value="Jenkins_Practice"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -58,7 +60,7 @@
     <property name="WORKSPACE" value="C:\ProgramData\Jenkins\.jenkins\workspace\jankins_practice"/>
     <property name="Path" value="C:\Program Files\Java\jdk-17.0.7/bin;D:\oracle\product\10.2.0\db_2\bin;D:\oracle\product\10.2.0\db_1\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\fjoys\eclipse\apache-maven-3.9.2\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
     <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
-    <property name="GIT_COMMIT" value="47b437f5f88c17101ebd2e99c5365a3f24beed41"/>
+    <property name="GIT_COMMIT" value="336d48b28947ccbf37442222e10912af1f1a3518"/>
     <property name="java.version" value="17.0.7"/>
     <property name="CI" value="true"/>
     <property name="COMPUTERNAME" value="JOYSTON"/>
@@ -69,11 +71,12 @@
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\fjoys\eclipse\apache-maven-3.9.2/bin;C:\Program Files\Java\jdk-17.0.7/bin;C:\Program Files\Java\jdk-17.0.7/bin;D:\oracle\product\10.2.0\db_2\bin;D:\oracle\product\10.2.0\db_1\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\fjoys\eclipse\apache-maven-3.9.2\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
-    <property name="BUILD_NUMBER" value="1"/>
+    <property name="BUILD_NUMBER" value="4"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="BUILD_URL" value="http://localhost:9090/job/jankins_practice/1/"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:9090/job/jankins_practice/1/display/redirect?page=artifacts"/>
+    <property name="BUILD_URL" value="http://localhost:9090/job/jankins_practice/4/"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:9090/job/jankins_practice/4/display/redirect?page=artifacts"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="POM_DISPLAYNAME" value="Jenkins_Practice"/>
     <property name="GIT_URL" value="https://github.com/joyston1214/Jenkins_practice.git"/>
     <property name="NUMBER_OF_PROCESSORS" value="8"/>
     <property name="PROCESSOR_LEVEL" value="6"/>
@@ -89,10 +92,11 @@
     <property name="maven.conf" value="C:\Users\fjoys\eclipse\apache-maven-3.9.2\conf"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:9090/job/jankins_practice/1/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:9090/job/jankins_practice/4/display/redirect?page=tests"/>
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="BUILD_TAG" value="jenkins-jankins_practice-1"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="BUILD_TAG" value="jenkins-jankins_practice-4"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="user.language" value="en"/>
@@ -102,15 +106,18 @@
     <property name="M2_HOME" value="C:\Users\fjoys\eclipse\apache-maven-3.9.2"/>
     <property name="WINSW_EXECUTABLE" value="C:\Program Files\Java\jdk-17.0.7\jenkins.exe"/>
     <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="336d48b28947ccbf37442222e10912af1f1a3518"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="POM_PACKAGING" value="jar"/>
     <property name="USERDOMAIN" value="WORKGROUP"/>
     <property name="path.separator" value=";"/>
-    <property name="BUILD_ID" value="1"/>
+    <property name="BUILD_ID" value="4"/>
     <property name="SPLM_LICENSE_SERVER" value="28000@JOYSTON"/>
     <property name="os.version" value="10.0"/>
     <property name="BASE" value="C:\Program Files\Java\jdk-17.0.7"/>
     <property name="JOB_NAME" value="jankins_practice"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="336d48b28947ccbf37442222e10912af1f1a3518"/>
     <property name="NODE_LABELS" value="built-in"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="PATH+JDK" value="C:\Program Files\Java\jdk-17.0.7/bin"/>
@@ -134,6 +141,6 @@
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="admin" classname="practice.Admin_Module" time="0.004"/>
-  <testcase name="login" classname="practice.Login_Module" time="0"/>
+  <testcase name="admin" classname="practice.Admin_Module" time="0.005"/>
+  <testcase name="login" classname="practice.Login_Module" time="0.001"/>
 </testsuite>

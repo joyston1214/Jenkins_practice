@@ -8,12 +8,12 @@
       <![CDATA[Successfully created Login Module]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-06-15T11:18:44 IST" name="Suite" finished-at="2023-06-15T11:18:44 IST" duration-ms="38">
+  <suite started-at="2023-06-15T11:42:46 IST" name="Suite" finished-at="2023-06-15T11:42:46 IST" duration-ms="38">
     <groups>
     </groups>
-    <test started-at="2023-06-15T11:18:44 IST" name="Test" finished-at="2023-06-15T11:18:44 IST" duration-ms="38">
+    <test started-at="2023-06-15T11:42:46 IST" name="Test" finished-at="2023-06-15T11:42:46 IST" duration-ms="38">
       <class name="practice.Login_Module">
-        <test-method signature="login()[pri:0, instance:practice.Login_Module@5276e6b0]" started-at="2023-06-15T11:18:44 IST" name="login" finished-at="2023-06-15T11:18:44 IST" duration-ms="0" status="PASS">
+        <test-method signature="login()[pri:0, instance:practice.Login_Module@5276e6b0]" started-at="2023-06-15T11:42:46 IST" name="login" finished-at="2023-06-15T11:42:46 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Successfully created Login Module]]>
@@ -22,7 +22,7 @@
         </test-method> <!-- login -->
       </class> <!-- practice.Login_Module -->
       <class name="practice.Admin_Module">
-        <test-method signature="admin()[pri:0, instance:practice.Admin_Module@43301423]" started-at="2023-06-15T11:18:44 IST" name="admin" finished-at="2023-06-15T11:18:44 IST" duration-ms="4" status="PASS">
+        <test-method signature="admin()[pri:0, instance:practice.Admin_Module@43301423]" started-at="2023-06-15T11:42:46 IST" name="admin" finished-at="2023-06-15T11:42:46 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[successfully created Admin Module]]>
